@@ -2,9 +2,9 @@ import React from "react";
 import html from "./assets/html.png";
 import css from "./assets/css.png";
 import Javascript from "./assets/Javascript.png";
-import reactImage from "./assets/react.png";
-import bootstrap from "./assets/Bootstrap.png";
-import tailwinds from "./assets/tailwind.jpg";
+import reactImage from "./assets/React.webp";
+import nodejs from "./assets/nodejs.png";
+import tailwinds from "./assets/tailwind.png";
 import graphQL from "./assets/GraphQL.png";
 import github from "./assets/github.png";
 
@@ -42,9 +42,9 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: bootstrap,
-      title: "Bootstrap",
-      style: "shadow-purple-600",
+      src: nodejs,
+      title: "NodeJs",
+      style: "shadow-emerald-500",
     },
     {
       id: 7,

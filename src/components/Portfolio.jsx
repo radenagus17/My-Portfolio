@@ -1,36 +1,46 @@
 import React from "react";
-import arrayDestr from "./assets/arrayDestr.png";
-import nodejs from "./assets/nodejs.webp";
-import reactjs from "./assets/reactjs.jpg";
-import reactParallax from "./assets/reactParallax.jpg";
-import reactscroll from "./assets/reactscroll.png";
-import reactWeather from "./assets/reactWeather.jpg";
+import login from "./assets/login.png";
+import pokedex from "./assets/pokedex.png";
+import portfolio from "./assets/portfolio.png";
+import gilgamass from "./assets/gilgamass.png";
+import newsportal from "./assets/newsportal.png";
+import jastip from "./assets/jastip.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestr,
+      src: login,
+      code: "https://github.com/radenagus17/pair-project",
     },
     {
       id: 2,
-      src: nodejs,
+      src: pokedex,
+      demo: "https://pokedexcard.netlify.app",
+      code: "https://github.com/radenagus17/pokemon-app",
     },
     {
       id: 3,
-      src: reactjs,
+      src: portfolio,
+      code: "https://github.com/radenagus17/My-Portfolio",
     },
     {
       id: 4,
-      src: reactParallax,
+      src: gilgamass,
+      demo: "https://gilga-mass.web.app",
+      code: "https://github.com/radenagus17/GilgaMass-Client/tree/dev",
     },
     {
       id: 5,
-      src: reactscroll,
+      src: newsportal,
+      demo: "https://news-portal101.web.app",
+      code: "https://github.com/radenagus17/news-portal",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: jastip,
+      demo: "https://jastipque-app.web.app",
+      code: "https://github.com/radenagus17/JastipQue-Client",
     },
   ];
 
@@ -42,12 +52,16 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img src={src} alt="" className="rounded-md hover:scale-105 duration-200" />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                <a href={demo} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Demo
+                </a>
+                <a href={code} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Code
+                </a>
               </div>
             </div>
           ))}

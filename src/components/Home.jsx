@@ -11,7 +11,7 @@ const Home = () => {
           <div className="flex flex-col justify-center h-full">
             <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Fullstack Developer</h2>
             <p className="text-gray-500 py-4 max-w-md">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio qui non at velit provident perferendis ea? Inventore consequatur modi error odit expedita voluptas libero delectus, porro veritatis explicabo velit numquam!
+              Digital Enthusiasm who has just embarked on an extraordinary and meaningful journey in the world of Programming & Software Engineer; Optimistic, flexible and open-minded person; Loves to travel and share stories.
             </p>
             <div>
               <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
