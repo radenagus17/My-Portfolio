@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center px-4 w-full h-20 text-white bg-black dark:bg-white dark:text-slate-700 fixed transition duration-200 shadow-sm z-50">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Radenagus17_</h1>
+        <h1 className="text-5xl font-signature ml-2 transition duration-500">Radenagus17_</h1>
       </div>
 
       <ul className="hidden md:flex md:items-center">

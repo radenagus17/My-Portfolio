@@ -48,7 +48,7 @@ const Portfolio = () => {
     <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full dark:bg-gradient-to-b dark:from-slate-200 dark:to-slate-400 text-white dark:text-slate-700 md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 dark:border-slate-100">Portfolio</p>
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 dark:border-slate-100 transition duration-500">Portfolio</p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-20 md:mb-0">

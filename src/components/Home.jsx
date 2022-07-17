@@ -9,7 +9,7 @@ const Home = () => {
       <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 dark:bg-gradient-to-b dark:from-slate-200 dark:via-slate-200 dark:to-slate-400">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
           <div className="flex flex-col justify-center h-full">
-            <h2 className="text-4xl sm:text-7xl font-bold text-white dark:text-slate-700">I'm a Fullstack Developer</h2>
+            <h2 className="text-4xl sm:text-7xl font-bold text-white dark:text-slate-700 transition duration-500">I'm a Fullstack Developer</h2>
             <p className="text-gray-500 dark:text-slate-500 py-4 max-w-md">
               Digital Enthusiasm who has just embarked on an extraordinary and meaningful journey in the world of Programming & Software Engineer; Optimistic, flexible and open-minded person; Loves to travel and share stories.
             </p>
