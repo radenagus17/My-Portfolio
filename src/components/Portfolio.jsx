@@ -1,43 +1,58 @@
 import React from "react";
-import login from "./assets/login.png";
-import pokedex from "./assets/pokedex.png";
+import todo from "./assets/todoApp.png";
+import resto from "./assets/restoApp.png";
+import netflix from "./assets/netflixClone.png";
 import portfolio from "./assets/portfolio.png";
 import gilgamass from "./assets/gilgamass.png";
 import newsportal from "./assets/newsportal.png";
+import megafit from "./assets/megafit.png";
 import jastip from "./assets/jastip.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: login,
-      code: "https://github.com/radenagus17/pair-project",
+      src: todo,
+      demo: "https://fir-app-todo.web.app",
+      code: "https://github.com/radenagus17/firebase-todo-app",
     },
     {
       id: 2,
-      src: pokedex,
-      demo: "https://pokedexcard.netlify.app",
-      code: "https://github.com/radenagus17/pokemon-app",
+      src: resto,
+      demo: "https://e-resto-app.netlify.app",
+      code: "https://github.com/radenagus17/e-resto-app",
     },
     {
       id: 3,
+      src: megafit,
+      demo: "https://new-megafit-client.netlify.app",
+      code: "https://github.com/radenagus17/New-Megafit-Client",
+    },
+    {
+      id: 4,
       src: portfolio,
       code: "https://github.com/radenagus17/My-Portfolio",
     },
     {
-      id: 4,
+      id: 5,
+      src: netflix,
+      demo: "https://netflix-clone-byagus.web.app",
+      code: "https://github.com/radenagus17/netflix-clone",
+    },
+    {
+      id: 6,
       src: gilgamass,
       demo: "https://gilga-mass.web.app",
       code: "https://github.com/radenagus17/GilgaMass-Client/tree/dev",
     },
     {
-      id: 5,
+      id: 7,
       src: newsportal,
       demo: "https://news-portal101.web.app",
       code: "https://github.com/radenagus17/news-portal",
     },
     {
-      id: 6,
+      id: 8,
       src: jastip,
       demo: "https://jastipque-app.web.app",
       code: "https://github.com/radenagus17/JastipQue-Client",
