@@ -33,18 +33,24 @@ const Portfolio = () => {
     },
     {
       id: 6,
+      src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/lp-yoga_rCv8qD8Ja.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662202854674",
+      demo: "https://start-with-yoga.netlify.app/",
+      code: "https://github.com/radenagus17/lp-yoga",
+    },
+    {
+      id: 7,
       src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/gilgamass_wP5mT0sp8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660482303952",
       demo: "https://gilga-mass.web.app",
       code: "https://github.com/radenagus17/GilgaMass-Client/tree/dev",
     },
     {
-      id: 7,
+      id: 8,
       src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/newsportal_PDgKEcTtO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660482310023",
       demo: "https://news-portal101.web.app",
       code: "https://github.com/radenagus17/news-portal",
     },
     {
-      id: 8,
+      id: 9,
       src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/jastip_imKkKDzTZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660482310152",
       demo: "https://jastipque-app.web.app",
       code: "https://github.com/radenagus17/JastipQue-Client",
