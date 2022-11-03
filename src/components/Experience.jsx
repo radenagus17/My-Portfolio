@@ -5,8 +5,7 @@ import Javascript from "./assets/Javascript.png";
 import reactImage from "./assets/React.webp";
 import nodejs from "./assets/nodejs.png";
 import tailwinds from "./assets/tailwind.png";
-import graphQL from "./assets/GraphQL.png";
-import github from "./assets/github.png";
+import nextjs from "./assets/Nextjs.png";
 
 const Experience = () => {
   const techs = [
@@ -48,14 +47,8 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphQL,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
-      src: github,
-      title: "GitHub",
+      src: nextjs,
+      title: "NextJs",
       style: "shadow-gray-400",
     },
   ];

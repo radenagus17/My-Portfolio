@@ -55,6 +55,18 @@ const Portfolio = () => {
       demo: "https://jastipque-app.web.app",
       code: "https://github.com/radenagus17/JastipQue-Client",
     },
+    {
+      id: 10,
+      src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/twitch-clone_XE31plSrK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667465915498",
+      demo: "https://twitch-7-clone.vercel.app/",
+      code: "https://github.com/radenagus17/twitch-clone",
+    },
+    {
+      id: 11,
+      src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/next-commerce_v7VAENNyb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667466170543",
+      demo: "https://sanber-next-commerce-kifphmn1x-radenagus17.vercel.app/",
+      code: null,
+    },
   ];
 
   return (
