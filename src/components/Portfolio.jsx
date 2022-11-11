@@ -64,8 +64,14 @@ const Portfolio = () => {
     {
       id: 11,
       src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/next-commerce_v7VAENNyb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667466170543",
-      demo: "https://sanber-next-commerce-kifphmn1x-radenagus17.vercel.app/",
+      demo: "https://sanber-next-commerce-kifphmn1x-radenagus17.vercel.app",
       code: null,
+    },
+    {
+      id: 12,
+      src: "https://ik.imagekit.io/jastipQue/portfolio/tr:w-auto,f-avif/cafe-bistro_roSlwqPhK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668151936921",
+      demo: "https://cafe-resto117.vercel.app",
+      code: "https://github.com/radenagus17/lp-cafe-resto",
     },
   ];
 
